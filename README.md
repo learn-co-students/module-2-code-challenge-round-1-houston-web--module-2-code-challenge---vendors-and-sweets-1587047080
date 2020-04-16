@@ -15,7 +15,7 @@ In this repo, there is a Rails application with some features built out. Your jo
 
 ## Setup
 
-Before you begin coding your solution, clone this repo and then `cd` into it. Then run `bundle install`, `rails db:migrate`, and `rails db:seed` to install dependencies and set up the database, and run `rails s` to start the server.
+Before you begin coding your solution, clone this repo and then `cd` into it. Then run `bundle install` to install dependencies.
 
 ## Domain
 
@@ -64,6 +64,8 @@ Update the schema and models to add the `VendorSweet` model. It should have:
 - a price (use an integer data type for this column: we'll treat the numbers in it as the price, in cents).
 
 In the rails console, check that your code works by creating your first `VendorSweet` with a given `Sweet`, `Vendor`, and price.
+
+Run `rails db:migrate`, and `rails db:seed` to set up the database, then run `rails s` to start the server
 
 ### 2. VendorSweet Create Form
 
