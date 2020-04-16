@@ -102,7 +102,7 @@ On the Vendors index page, we should see a list of vendor's names. Each name sho
 
 On the Sweets index page, we should see a list of sweet's names. Each name should link to the Sweet's show page.
 
-### 7. VendorSweet Validations
+### 7. Advanced: VendorSweet Validations
 
 Add validations to the VendorSweet model so that:
 
